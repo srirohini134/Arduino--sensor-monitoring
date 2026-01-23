@@ -28,7 +28,6 @@ void loop() {
     digitalWrite(ledPin, LOW);
   }
   else {
-    // Kai cover / dark
     Serial.println("LOW Energy");
     digitalWrite(ledPin, LOW);
   }
