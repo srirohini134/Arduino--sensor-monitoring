@@ -32,6 +32,31 @@ void loop() {
     Serial.println("LOW Energy");
     digitalWrite(ledPin, LOW);
   }
+# Arduino Sensor Monitoring
 
+## Problem Statement
+To monitor environmental changes using an analog sensor and display variation using Arduino.
+
+## Objective
+- Read analog sensor values
+- Show variation using LED and Serial Monitor
+- Classify values as Low / Medium / High
+
+## Components Used
+- Arduino Uno
+- Analog Sensor (LDR / similar)
+- LED
+- Jumper wires
+
+## Working Principle
+- Sensor gives analog values to A0
+- Arduino processes the value
+- LED indicates intensity
+- Output is shown in Serial Monitor
+
+## Output
+- High value → LED ON
+- Low value → LED OFF
+- Real-time values displayed
   delay(500);
 }
