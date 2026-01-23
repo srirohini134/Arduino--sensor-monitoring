@@ -59,4 +59,3 @@ To monitor environmental changes using an analog sensor and display variation us
 - Real-time values displayed
   delay(500);
 }
-WhatsApp Video 2026-01-23 at 12.42.37 AM
